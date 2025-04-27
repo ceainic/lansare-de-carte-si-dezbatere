@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre Poete - Întâlniri Literare</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #3a5683;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        nav {
+            background-color: #213559;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ddd;
+        }
+        
+        .page-title {
+            background-color: #e8edf3;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .poet {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .poet-img {
+            flex: 0 0 300px;
+        }
+        
+        .poet-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .poet-content {
+            flex: 1;
+            padding: 2rem;
+        }
+        
+        .poet h2 {
+            color: #213559;
+            margin-top: 0;
+        }
+        
+        .event-details {
+            background-color: #f0f4f8;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #3a5683;
+            padding-left: 1rem;
+            margin-left: 0;
+            color: #555;
+        }
+        
+        footer {
+            background-color: #213559;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .poet {
+                flex-direction: column;
+            }
+            
+            .poet-img {
+                flex: 0 0 100%;
+                height: 300px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Întâlniri Literare</h1>
+            <p>Colegiul Național "Sfântul Sava" - Editura Spandugino</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre Poete</a></li>
+                <li><a href="galerie.html">Galerie Foto</a></li>
+                <li><a href="impresii.html">Impresii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="page-title">
+        <div class="container">
+            <h2>Despre Poetele Invitate</h2>
+            <p>Personalități remarcabile ale literaturii române contemporane</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="monica-pillat" class="poet">
+            <div class="poet-img">
+                <img src="/api/placeholder/300/400" alt="Monica Pillat">
+            </div>
+            <div class="poet-content">
+                <h2>Monica Pillat</h2>
+                <p>Monica Pillat este o scriitoare română contemporană, fiica poetului Dinu Pillat și nepoata renumitului poet Ion Pillat. Cu o carieră dedicată literaturii și conservării patrimoniului cultural românesc, Monica Pillat s-a remarcat prin eforturile sale de a păstra și promova moștenirea literară a familiei sale.</p>
+                
+                <p>În calitate de critic literar, eseist și poetă, Monica Pillat a contribuit semnificativ la cultura română contemporană, fiind o voce distinctă în peisajul literar actual.</p>
+                
+                <div class="event-details">
+                    <h3>Despre eveniment</h3>
+                    <p>Evenimentul organizat de Editura Spandugino a avut loc luni, 10 martie, ora 11.30 la Colegiul Național „Sfântul Sava" din București.</p>
+                    
+                    <p>Cu această ocazie, a fost lansată cartea „Familia din vers" de Ion Pillat, antologie realizată de Monica Pillat și Carmen Brăgaru, urmată de o dezbatere pe marginea universului poetic pillatian.</p>
+                    
+                    <p><strong>Participanți:</strong> Monica Pillat, Carmen Brăgaru</p>
+                    <p><strong>Moderator:</strong> Cristian Pătrășconiu</p>
+                </div>
+                
+                <blockquote>
+                    „Prezenta antologie s-a structurat într-un cvartet, menit să îi ofere cititorului de azi accesul la universul afectiv domestic al unui poet care a ținut să sustragă ireversibilului și să păstreze în scris tot ceea ce a iubit mai mult pe lume." – Monica Pillat
+                </blockquote>
+                
+                <blockquote>
+                    „Când volumul s-a conturat și împlinit, lectura poeziilor lui Ion Pillat, ordonate după criteriul «familiei din vers», a atras, ca un magnet, alte câteva texte lirice pe aceeași temă, scrise de nepoata Monica Pillat, într-un arc peste timp." – Carmen Brăgaru
+                </blockquote>
+            </div>
+        </div>
+        
+        <div id="ana-blandiana" class="poet">
+            <div class="poet-img">
+                <img src="/api/placeholder/300/400" alt="Ana Blandiana">
+            </div>
+            <div class="poet-content">
+                <h2>Ana Blandiana</h2>
+                <p>Ana Blandiana (numele literar al Otiliei Valeria Coman) este una dintre cele mai importante poete și eseiste române contemporane. Născută pe 25 martie 1942, în Timișoara, Ana Blandiana s-a impus în literatura română nu doar prin opera sa literară de o sensibilitate deosebită, ci și prin activitatea civică și lupta pentru democrație.</p>
+                
+                <p>Poezia Anei Blandiana este caracterizată prin lirism, profunzime filozofică și o expresie artistică rafinată. Opera sa a fost tradusă în numeroase limbi străine și a primit numeroase premii literare naționale și internaționale.</p>
+                
+                <p>Pe lângă activitatea literară, Ana Blandiana este cunoscută pentru implicarea sa civică și politică, fiind una dintre fondatoarele Alianței Civice și inițiatoarea Memorialului Victimelor Comunismului și al Rezistenței de la Sighet.</p>
+                
+                <div class="event-details">
+                    <h3>Despre eveniment</h3>
+                    <p>Editura Spandugino a organizat miercuri, 2 aprilie, ora 11.30, lansarea unui volum fundamental pentru înțelegerea calamității istorice care, la nivel global, a spulberat zeci de milioane de vieți și a mutilat iremediabil populații întregi: „Cartea neagră a comunismului. Crime, teroare, represiune", rezultat al unei echipe de istorici coordonate de Stéphane Courtois.</p>
+                    
+                    <p>Evenimentul a avut loc la Colegiul Național „Sfântul Sava" din București.</p>
+                    
+                    <p><strong>Participanți:</strong> Ana Blandiana, Ioan Stanomir</p>
+                    <p><strong>Moderator:</strong> Cristian Pătrășconiu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Colegiul Național "Sfântul Sava" - Toate drepturile rezervate</p>
+            <p>Un proiect în colaborare cu Editura Spandugino</p>
+        </div>
+    </footer>
+</body>
+</html>
