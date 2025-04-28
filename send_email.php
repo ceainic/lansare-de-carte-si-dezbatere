@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
     
-    $fullMessage = "Ai primit un nou mesaj de la formularul de contact:\n\n";
+    $fullMessage = "Ați primit un nou mesaj de la formularul de contact:\n\n";
     $fullMessage .= "Nume: $name\n";
     $fullMessage .= "Email: $email\n";
     $fullMessage .= "Subiect: $subject\n";
