@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Întâlniri Literare</title>
+    <title>Contact</title>
     <style>
         body {
             font-family: 'Georgia', serif;
@@ -201,8 +201,8 @@
 <body>
     <header>
         <div class="container">
-            <h1>Întâlniri Literare</h1>
-            <p>Colegiul Național "Sfântul Sava" - Editura Spandugino</p>
+            <h1>Editura Spandugino: Lansare de carte și dezbatere</h1>
+            <p>Eveniment organizat în colaborare cu Colegiul Național "Sfântul Sava"</p>
         </div>
     </header>
     
@@ -241,15 +241,10 @@
                     <h4>E-mail</h4>
                     <p><a href="mailto:deslatina_cris@yahoo.com">deslatina_cris@yahoo.com</a></p>
                 </div>
-                
-                <div class="contact-item">
-                    <h4>Program</h4>
-                    <p><strong>Luni - Vineri:</strong> 8:00 - 16:00</p>
-                </div>
-                
+
                 <div class="contact-item">
                     <h4>Editura Spandugino</h4>
-                    <p>Pentru informații despre cărțile lansate și viitoare evenimente, vizitați <a href="https://www.edituraspaandugino.ro" target="_blank">site-ul editurii</a>.</p>
+                    <p>Pentru informații despre cărțile lansate și viitoare evenimente, vizitați <a href="https://www.edituraspandugino.ro" target="_blank">site-ul editurii</a>.</p>
                 </div>
             </div>
             
@@ -257,7 +252,7 @@
                 <h3>Trimite-ne un Mesaj</h3>
                 <p>Ai întrebări despre evenimentele literare sau dorești să participi la viitoarele întâlniri? Completează formularul de mai jos și te vom contacta în cel mai scurt timp.</p>
                 
-                <form id="contactForm">
+                <form action="send_email.php" method="POST">
                     <div class="form-group">
                         <label for="name">Nume și prenume</label>
                         <input type="text" id="name" name="name" required>
@@ -285,7 +280,7 @@
         
         <div class="school-map">
             <h3 style="margin-left: 20px;">Locație</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8894420102257!2d26.0944982!3d44.4396578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff472f8fb6e1%3A0x493984726f0235f9!2sColegiul%20Na%C8%9Bional%20%22Sf%C3%A2ntul%20Sava%22!5e0!3m2!1sen!2sro!4v1619527499018!5m2!1sen!2sro" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.608598452572!2d26.090816399999998!3d44.4415981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5a962e17b5%3A0xd93a4d835f69d251!2zQ29sZWdpdWwgTmHIm2lvbmFsIOKAnlNmw6JudHVsIFNhdmEi!5e1!3m2!1sro!2sro!4v1745819500610!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
     
@@ -296,12 +291,5 @@
         </div>
     </footer>
     
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            alert('Mulțumim pentru mesaj! Te vom contacta în cel mai scurt timp.');
-            this.reset();
-        });
-    </script>
 </body>
 </html>
